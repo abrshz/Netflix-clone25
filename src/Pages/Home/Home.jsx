@@ -1,6 +1,8 @@
 import Footer from "../../Components/Footer/Footer"
 import Header from "../../Components/Header/Header"
 import Banner from "../../Components/Banner/Banner"
+import RowLists from "../../Components/Rows/RowLists/RowLists"
+// import "./Home.module.css"
 
 
 function Home() {
@@ -8,6 +10,7 @@ function Home() {
     <>
     <Header />
     <Banner />
+    <RowLists />
     <Footer />
     </>
   )
