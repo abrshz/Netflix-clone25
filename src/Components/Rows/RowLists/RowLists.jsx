@@ -7,7 +7,7 @@ function RowLists() {
     <div style={{backgroundColor: "#111",
       padding: 0,
       margin: 0}}>
-        <Row tittle="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow= {true} />
+        <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow= {true} />
         <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
         <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
         <Row title="Top Rated" fetchUrl={requests.fetchTopRatedMovies} />
