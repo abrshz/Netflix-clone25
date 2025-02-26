@@ -14,8 +14,9 @@ function RowLists() {
         <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
         <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies}  />
         <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
+        <Row title="Animation" fetchUrl={requests.fetchAnimation} />
         <Row title="TV shows" fetchUrl={requests.fetchTvShow} />
-        <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+
     </div>
   )
 }
